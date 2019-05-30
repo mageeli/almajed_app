@@ -12,7 +12,6 @@
         mousa ageeli
     </author>
     <plugin name="cordova-plugin-dialogs" />
-    <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-geolocation" />
     <preference name="android-minSdkVersion" value="20" />
     <content src="index.html" />
