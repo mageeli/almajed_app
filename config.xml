@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="net.ogail.almajed" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>الماجد</name>
+    <description>
+     أوقاف الماجد
+    </description>
+    <author email="mousaageeli@gmail.com" href="https://ogail.net">
+        mousa ageeli
+    </author>
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-geolocation" />
+    <content src="index.html" />
+    <icon src="icon.png" />
+    <platform name="android">
+        <icon density="mdpi" src="res/icons/android/mipmap-mdpi/ic_launcher.png" />
+        <icon density="hdpi" src="res/icons/android/mipmap-hdpi/ic_launcher.png" />
+        <icon density="xhdpi" src="res/icons/android/mipmap-xhdpi/ic_launcher.png" />
+        <icon density="xxhdpi" src="res/icons/android/mipmap-xxhdpi/ic_launcher.png" />
+        <icon density="xxxhdpi" src="res/icons/android/mipmap-xxxhdpi/ic_launcher.png" />
+    </platform>
+    <platform name="ios">
+        <icon height="57" platform="ios" src="res/icons/ios/57.png" width="57" />
+        <icon height="114" platform="ios" src="res/icons/ios/114.png" width="114" />
+        <icon height="40" platform="ios" src="res/icons/ios/40.png" width="40" />
+        <icon height="80" platform="ios" src="res/icons/ios/80.png" width="80" />
+        <icon height="60" platform="ios" src="res/icons/ios/60.png" width="60" />
+        <icon height="120" platform="ios" src="res/icons/ios/120.png" width="120" />
+        <icon height="180" platform="ios" src="res/icons/ios/180.png" width="180" />
+        <icon height="144" platform="ios" src="res/icons/ios/114.png" width="144" />
+        <icon height="29" platform="ios" src="res/icons/ios/29.png" width="29" />
+        <icon height="58" platform="ios" src="res/icons/ios/58.png" width="58" />
+        <icon height="87" platform="ios" src="res/icons/ios/87.png" width="87" />
+    </platform>
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="orientation" value="portrait" />
+    <access origin="https://almajed.org.sa*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-inappbrowser" />
+    <plugin name="cordova-plugin-network-information" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
+    <engine name="ios" spec="~4.4.0" />
+</widget>
